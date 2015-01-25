@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 640px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+	p.label { display: none;}
+	
+	div.ba {
+		position: relative;
+		width:100%;
+		height:458px;
+		overflow: scroll;
+		margin-bottom: 20px;
+	}
+	
+	.ba button {
+		position: absolute;
+		bottom: 14px;
+		right: 14px;
+		
+	}
+	
+	img.before, img.after {
+		width:640px;
+	}
+	
+	.masthead {
+		background: url(masthead.png) top left no-repeat #fff;
+		height:300px;
+		position: relative;
+	}
+	
+	.masthead h3, .masthead ul {
+		position: absolute;
+		left: 240px;
+	}
+	
+	.masthead h3 {
+		top: 66px;
+	}
+	
+	.masthead ul {
+		top: 157px;
+	}
+	
+
+    </style>
+    <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills nav-stacked ">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="muted">Kellie Carlin Landscape Design</h3>
+      </div>
+
+      <hr>
+
+<div class="ba">
+<img src="hutson/1a.jpg" class="after" />
+<img src="hutson/1b.jpg" class="before" />
+
+<button class="btn"><i class="icon-arrow-down"></i> Scroll back in time</button>
+</div>
+
+
+<div class="ba">
+<img src="hutson/2a.jpg" class="after" />
+<img src="hutson/2b.jpg" class="before" />
+
+<button class="btn"><i class="icon-arrow-down"></i> Scroll back in time</button>
+</div>
+
+
+<!-- <p class="label"><span>Before</span> After</p>
+<img src="hutson/2b.jpg" class="before" />
+<img src="hutson/2a.jpg" class="after" />
+<p id="box">Residence<br />
+<span>St. Helena, CA</span></p>
+
+
+
+<p class="label"><span>Before</span> After</p>
+<img src="liebers/1b.jpg" class="before" />
+<img src="liebers/1a.jpg" class="after" />
+<p id="box">Residence<br />
+<span>San Francisco, CA</span></p>
+
+
+
+<p class="label"><span>Before</span> After</p>
+<img src="liebers/3b.jpg" class="before" />
+<img src="liebers/3a.jpg" class="after" />
+<p id="box">Residence<br />
+<span>San Francisco, CA</span></p>
+
+
+	
+<p class="label"><span>Before</span> After</p>
+<img src="rianda/2b.jpg" class="before" />
+<img src="rianda/2a.jpg" class="after" />
+<p id="box">Senior center<br />
+<span>St. Helena, CA</span></p>
+
+
+	
+<p class="label"><span>Before</span> After</p>
+<img src="hut/2b.jpg" class="before" />
+<img src="hut/2a.jpg" class="after" />
+<p id="box">Residence<br />
+<span>St. Helena, CA</span></p>
+
+
+
+<p class="label"><span>Before</span> After</p>
+<img src="hut/3b.jpg" class="before" />
+<img src="hut/3a.jpg" class="after" />
+<p id="box">Residence<br />
+<span>St. Helena, CA</span></p> -->
+
+ 
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy; Company 2012</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap-transition.js"></script>
+    <script src="../bootstrap/js/bootstrap-alert.js"></script>
+    <script src="../bootstrap/js/bootstrap-modal.js"></script>
+    <script src="../bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="../bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="../bootstrap/js/bootstrap-tab.js"></script>
+    <script src="../bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="../bootstrap/js/bootstrap-popover.js"></script>
+    <script src="../bootstrap/js/bootstrap-button.js"></script>
+    <script src="../bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="../bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="../bootstrap/js/bootstrap-typeahead.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+		
+	
+		$('.ba').scroll(function(){
+			$(this).children('button').fadeOut('slow');
+		});
+		
+		$('.ba button').click(function(){
+			var scrollHeight = $(this).siblings('.before').height();
+			$(this).parent().animate({scrollTop: scrollHeight},600);
+		});
+	</script>
+
+  </body>
+</html>

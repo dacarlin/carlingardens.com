@@ -1,0 +1,56 @@
+/* Fonts and colors */
+
+body {
+	color: #fff;
+	text-shadow-color: #222;
+	background: url('images/bg.jpg') fixed no-repeat center center #222;
+}
+
+#navi li { color: #222; }
+#navi li a { color: #fff799; }
+#navi li a:hover { border-bottom-color: #444; }
+#navi big { color: #fff; }		
+
+
+
+/* Structural detail */ 
+
+h2 {
+	color: white;
+	margin: 2em 0 .8em 0;
+	font-weight: normal;
+	font-size: 24pt;
+	opacity: 0.3;
+}
+
+img {
+	float: right;
+	margin: 0.8em 0 1.6em 1.4em;
+	border: solid 2px #fff;
+}
+
+p { width: 32em; }
+
+#statement {
+   display: none;
+	text-align: left;
+	list-style: circle;
+	/*border: 1px solid #fff;*/
+	margin: 3em;
+	padding: 2em;
+}
+
+#statement li {  
+	margin: 0 0 .2em 0;
+	list-style: none;
+	font-size: 28px;
+	line-height: 32px;
+	width: 14em;
+	font-style: italic;
+}
+
+ul li {
+	list-style: circle;
+	padding: 0 0 0.8em 0;
+	/* width: 26em; breaks the layout */
+}

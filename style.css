@@ -1,0 +1,140 @@
+/* Sets the logotype in h1 */
+
+h1 { 
+	font-weight: normal;
+	color: #eee;
+	font-size: 66px; 
+	text-align: left;
+	padding: 40px 0 0 0;
+}
+
+   h1 small { 
+   	display: block;
+   	font-size: 26px;
+   	padding: .6em 0 0 0; 
+   	text-transform: uppercase;
+   	letter-spacing: 4px;
+   }
+   
+
+/* Fonts & colors */
+   
+body {
+	margin: 0;
+	padding: 0;
+	font: 18px/24px Baskerville, Times, Times New Roman, serif;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+}
+		
+
+/* Structure  */
+
+#wrap {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+}		
+   
+   
+   
+/* the dreaded navi */
+
+#navi {
+	position: absolute;
+	width: 200px;
+	right: 0;
+	top: .6em;
+	text-align: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+	
+	#navi li { 
+		list-style: none;
+		padding: 0 0 0.6em 0; 
+		color: #222;
+	  	font-size: 28px;
+	}
+	
+		#navi li + li { margin: 0 0 .2em 0; padding: 0 0 .2em 0; } 
+	
+	#navi li a { 
+		margin-left: .3em;
+		text-decoration: none;
+		color: #fff799;
+		font-size: 28px; 
+	}
+	
+	#navi li a span {
+	  /* arrows */
+	  
+	}
+	
+	#navi li a:hover { border-bottom: 1px solid #444; }
+
+	#navi big { font-size: 36px; color: #fff; }		
+
+   
+/* Footer! */   
+  
+.footer {  
+	margin: 3em 0 0 0;
+	padding: 1.8em 0 3em 3em;
+	width: inherit;
+   font-size: 25px;
+	border-top: 2px solid #111; 
+	background: #000; 
+	text-align: left; 
+}
+
+.footer span {
+	text-transform: uppercase;
+	display: block;
+	font-size: 70%;
+	color: #888;  
+}
+
+.footer a {
+	font-size: 22px;
+	text-decoration: none;
+   color: #004080;
+}
+
+.footer small {
+	color: #888;
+	font-size: 70%;
+}             
+
+.footer .address {
+	text-transform: none;
+	padding-top: 1em;
+}
+
+.footer .copy {
+   font-size: 16px ;
+   text-transform: none;
+}    
+
+.footer .contact {
+   font-size: 22px;
+   text-transform: none;
+}
+
+	.footer span a { color: #fff799; }
+	.footer a:hover { border-bottom: 1px solid; }
+
+   
+/* Miscellaneous styles */
+
+/* a { color: #004080; } */
+
+a { color: lightblue; }
+
+.hide { display: none; }
+
+
+

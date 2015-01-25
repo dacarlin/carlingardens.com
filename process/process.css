@@ -1,0 +1,62 @@
+/* Fonts and colors */
+
+body {
+	text-shadow: 1px 1px 1px #fff;
+	color: #000;
+	background: #fff;
+}
+		
+#navi li { color: black; }
+#navi li a { color: gray; }
+#navi li a:hover { border-bottom-color: gray; }
+#navi big { color: black; }		
+               
+h1 { color: ; }
+	
+/* Structural detail */
+		
+h1 { color: #004080; }
+
+p {
+   width: 32em;
+   padding-left: .5em;
+}
+
+a {
+   color: #004080;
+}
+
+.badge {
+	float: right;
+	display: block;
+	padding: 0.5em;
+	clear: left;
+}
+
+h2 {
+	color: #000;
+	margin: 2em 0 .8em 0;
+	font-weight: normal;
+	font-size: 24pt; 
+	background: #eee;
+	padding: .4em 0 .5em .4em;  
+	border-top: 2px solid #B7C8DC;
+}
+
+h3 {          
+   color: #004080;
+   font-weight: normal;
+   background: #eee;
+   padding: .4em 0 .5em 1em; 
+   margin: 2em 0 .8em 0;  
+   border-top: 1px solid #B7C8DC;
+}
+
+p.footer {
+	background-color: #eee;
+	border-top-color: #ddd;
+}
+
+p.footer a {
+   color: #004080;
+}

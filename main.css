@@ -1,0 +1,44 @@
+/* Fonts and colors */
+
+body {
+	color: #fff;
+	text-shadow-color: #222;
+	background: url('biography/images/bg.jpg') fixed no-repeat center center #000;
+}
+
+#navi { 
+	font-size: 140px !important;
+	text-align: left 
+	position: absolute;
+	top: 30px;
+}
+
+#navi li { 
+	color: #222; 
+	text-align: left;
+}
+
+#navi li a { color: #fff799; }
+#navi li a:hover { border-bottom-color: #444; }
+#navi big { color: #fff; }		
+
+
+#statement, #updike {
+	margin: 0;
+	padding: 1em 0 0 0;
+	font-size: 120%;
+	line-height: 1.3em;
+}
+
+#updike { 
+	font-style: italic; 
+	padding: 1em 1em 0 1em;
+}
+
+#updike span { 
+	font-style: normal; 
+	text-align: right;
+	display: block;
+}
+
+.nav { text-align: center; }

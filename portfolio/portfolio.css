@@ -78,6 +78,8 @@ p.footer {
 	background: #000;
 }
 
+#gallery li img { width: 800px; }  
+
 p.footer {
 	display: none;
 }

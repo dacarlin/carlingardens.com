@@ -40,8 +40,14 @@ body {
 #gallery img {
 	width: 800px;
 	margin: 0 auto;
+    position: relative; 
 }		
-   
+
+#gallery {
+	width: 800px;
+	margin: 0 auto;
+    position: relative; 
+}
    
    
 /* the dreaded navi */

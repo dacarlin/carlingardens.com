@@ -39,7 +39,7 @@ body {
 
 #gallery img {
 	width: 800px;
-	margin: 0 auto;
+	margin: 0 0 6em 0;
     position: relative; 
 }		
 

@@ -35,6 +35,11 @@ body {
 	margin: 0 auto;
 	text-align: left;
 	position: relative;
+}
+
+#gallery img {
+	width: 800px;
+	margin: 0 auto;
 }		
    
    
